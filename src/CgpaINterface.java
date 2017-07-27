@@ -1310,7 +1310,7 @@ public class CgpaINterface extends javax.swing.JFrame {
         // TODO add your handling code here:
          
         StudentInfoCon objStudInfo = new StudentInfoCon();
-        if(userName.getText().equals("femi")&&password.getText().equals("1")&& objStudInfo.saveLoginInfo(userName.getText(), password.getText())){
+        if(userName.getText().equals("admin")&&password.getText().equals("admin")&& objStudInfo.saveLoginInfo(userName.getText(), password.getText())){
             Change.removeAll();
             Change.add(Level1,"constraints");
             Change.validate();
