@@ -2,7 +2,6 @@ CGPA Calculator helps in the computation of student's cummulative grade and prin
 
 ![alt text](dashboard.png)
 
-![alt text](login.png)
 
 ## Installation
 
@@ -12,10 +11,11 @@ CGPA Calculator helps in the computation of student's cummulative grade and prin
 
 <br><br>
 
-### How to install<br>
-    *Clone Repo<br>
-    *Run the sql dump compdept.sql<br>
-    *Set Database configuration in src/Backhand/SunDB2.java<br>
+### How to install <br>
+    *Clone Repo <br>
+    *Run the sql dump compdept.sql <br>
+    *Set Database configuration in src/Backhand/SunDB2.java <br>
+```
      public final String url = "jdbc:mysql://localhost:3306/compdept";
         public final String userName = "root";
         public final String password = "";
