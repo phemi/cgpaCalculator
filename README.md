@@ -1,8 +1,8 @@
 CGPA Calculator helps in the computation of student's cummulative grade and print transcript.
 
-![alt text](board.jpg)
+![alt text](dashboard.png)
 
-![alt text](home.jpg)
+![alt text](login.png)
 
 ## Installation
 
@@ -13,9 +13,9 @@ CGPA Calculator helps in the computation of student's cummulative grade and prin
 <br><br>
 
 ###How to install
-*Clone Repo
-*Run the sql dump compdept.sql
-*Set Database configuration in src/Backhand/SunDB2.java
+    *Clone Repo
+    *Run the sql dump compdept.sql
+    *Set Database configuration in src/Backhand/SunDB2.java
     ``` public final String url = "jdbc:mysql://localhost:3306/compdept";
         public final String userName = "root";
         public final String password = "";
@@ -28,6 +28,6 @@ Password: admin
 
 ## License
 
-localGoogle is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+CGPA calculator is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
